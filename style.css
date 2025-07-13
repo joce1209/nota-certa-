@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: #e0e0e0;
+}
+
+input {
+  width: 60px;
+}
+
+.aprovado {
+  color: green;
+  font-weight: bold;
+}
+
+.reprovado {
+  color: red;
+  font-weight: bold;
+}
