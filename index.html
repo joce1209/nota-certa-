@@ -1,0 +1,47 @@
+
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>NotaCerta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>NotaCerta - Controle de Notas</h1>
+  <table id="tabelaNotas">
+    <thead>
+      <tr>
+        <th>Aluno</th>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+        <th>Nota 3</th>
+        <th>Média</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Maria</td>
+        <td><input type="number" min="0" max="10"></td>
+        <td><input type="number" min="0" max="10"></td>
+        <td><input type="number" min="0" max="10"></td>
+        <td class="media">-</td>
+        <td class="status">-</td>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td><input type="number" min="0" max="10"></td>
+        <td><input type="number" min="0" max="10"></td>
+        <td><input type="number" min="0" max="10"></td>
+        <td class="media">-</td>
+        <td class="status">-</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <button onclick="calcularNotas()">Calcular</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
